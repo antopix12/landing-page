@@ -4,13 +4,52 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: auto;
+}
+
+button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 25px;
+  color: white;
+  background: #3882f6;
 }
 
 .header {
   height: 72px;
-  font-size: 24px;
   background: #1f2937;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo {
+  font-weight: 900;
+  font-size: 24px;
   color: white;
+}
+
+.header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.section-one {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-text {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .footer {
@@ -20,4 +59,56 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-two {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-header {
+  color: black;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.rounded-box {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  color: black;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.section-four {
+  background-color: white;
+}
+
+.rectangle {
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  
 }
